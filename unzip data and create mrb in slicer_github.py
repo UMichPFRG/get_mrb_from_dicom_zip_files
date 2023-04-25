@@ -37,11 +37,9 @@ for i in range(len(folder_names)):
 # Load code from:  https://github.com/Slicer/Slicer/blob/main/Modules/Scripted/DICOMLib/DICOMUtils.py
 
 ## ************************* IN 3D SLICER ***************************
-## copy to the 3D Slicer python iterator
-
-
-
 # LOAD DICOMS INTO 3D SLICER MANUALLY
+
+## copy code below the 3D Slicer python iterator
 
 from DICOMLib import DICOMUtils
 db = slicer.dicomDatabase
